@@ -12,7 +12,7 @@
 .ant-btn-primary {
     background-color: #39A574;
     width: 180px;
-    color: #fff;
+    color: #fff !important;
 }
 
 .default {

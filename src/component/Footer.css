@@ -6,3 +6,7 @@
     justify-content: space-between;
     color: #fff;
 }
+
+.Header__left {
+    font-size: 11px;
+}

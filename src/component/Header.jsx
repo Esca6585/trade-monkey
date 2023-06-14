@@ -1,5 +1,4 @@
 import { Row, Select } from 'antd';
-import { UserOutlined, DownOutlined } from '@ant-design/icons';
 import TradeLogo from './TradeLogo';
 import SwissLogo from './SwissLogo';
 import DowJonesLogo from './DowJonesLogo';

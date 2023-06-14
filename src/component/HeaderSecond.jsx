@@ -1,9 +1,6 @@
-import { Alert, Avatar, Row, Select, Space, Button, Search } from 'antd';
+import { Alert, Avatar, Row, Space, Button } from 'antd';
 import { UserOutlined, SearchOutlined, SwapOutlined, SettingOutlined, QuestionCircleOutlined} from '@ant-design/icons';
-import DowJonesLogo from './DowJonesLogo';
 import './HeaderSecond.css';
-
-const { Option } = Select;
 
 const HeaderSecond = () => {
   return (

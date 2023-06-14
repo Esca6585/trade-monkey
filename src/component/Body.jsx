@@ -1,24 +1,14 @@
-import { PlusOutlined } from '@ant-design/icons';
 import {
   Button,
-  Cascader,
-  Checkbox,
-  DatePicker,
   Form,
   Input,
-  InputNumber,
   Radio,
   Select,
-  Switch,
-  TreeSelect,
   Space,
   Row,
   Col
 } from 'antd';
-import { useState } from 'react';
 import './Body.css';
-
-const { Option } = Select;
 
 const Body = () => {
   return (
@@ -84,10 +74,12 @@ const Body = () => {
         </div>
         <Row className="flex-end">
           <div className="space-align-block">
-            <Space align="end">
+          <Col span={12} align="right">
+            <Space align="start">
               <Button type="primary">Prufen starten</Button>
               <Button type="default" className='default'>Aktualisiren</Button>
             </Space>
+          </Col>
           </div>
         </Row>
       </Col>
@@ -133,9 +125,11 @@ const Body = () => {
         </div>
         <Row className="flex-end">
           <div className="space-align-block">
-            <Space align="end">
-              <Button type="primary">Speichern</Button>
-            </Space>
+            <Col span={12} align="right">
+              <Space align="start">
+                <Button type="primary">Speichern</Button>
+              </Space>
+            </Col>  
           </div>
         </Row>
       </Col>
