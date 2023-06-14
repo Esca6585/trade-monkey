@@ -1,0 +1,30 @@
+.Body {
+    margin: 20px 40px;
+    width: 100%;
+}
+
+.container {
+    border-bottom: 1px solid #ccc;
+
+    height: 300px;
+}
+
+.ant-btn-primary {
+    background-color: green;
+    width: 180px;
+    color: #fff;
+}
+
+.default {
+    width: 180px;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: end;
+}
+
+.space-align-block {
+    margin: 8px 4px;
+    padding: 4px;
+}

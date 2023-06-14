@@ -1,0 +1,33 @@
+.Header {
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    width: 180px;
+    height: 30px;
+    padding: 0px 20px;
+}
+
+.logo__swiss {
+    width: 160px;
+    height: 30px;
+}
+
+.logo__dowjones {
+    width: 160px;
+    height: 30px;
+    padding: 0px 20px;
+}
+
+.Header__right, .Header__left {
+    padding: 10px 40px;
+}
+
+.ant-select-selector {
+    background-color: #fbfcfe !important;
+}

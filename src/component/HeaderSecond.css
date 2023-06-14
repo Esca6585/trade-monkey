@@ -1,0 +1,42 @@
+.Header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    width: 180px;
+    height: 30px;
+    padding: 0px 20px;
+}
+
+.logo__swiss {
+    width: 160px;
+    height: 30px;
+}
+
+.logo__dowjones {
+    width: 160px;
+    height: 30px;
+    padding: 0px 20px;
+}
+
+.Header__right, .Header__left {
+    padding: 10px 40px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80px;
+    height: 50px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.ant-select-selector {
+    background-color: #fbfcfe !important;
+}
